@@ -11,6 +11,33 @@ The Movie Analyzer is a tool powered by LangChain that leverages advanced AI tec
 - Genre & Theme Extraction: Extract and identify genres and key themes from movie descriptions.
 - Character Analysis: Identify key characters, their traits, and relationships within the movie.
 - Plot Breakdown: Provide a detailed breakdown of the plot with insights into major plot points and twists.
-- Recommendation System: Recommend movies based on user preferences, genres, or themes.
 - Custom Queries: Ask custom questions about a movie (e.g., “Who is the villain?” or “What are the key plot twists?”).
-- Advanced Search: Search movies based on various criteria, including actors, genres, ratings, etc.
+
+## Tech Stack
+- Frontend - Streamlit
+- Vector Database - Chroma DB
+- Backend - Python
+- Agents - Langchain with MistralAI
+
+## Installation
+- Clone the Repo
+    ```bash
+    git clone https://github.com/HeathKnowles/MovieAnalyzer
+    ```
+- Create a virtual environment
+    ```python
+    python - m venv env
+- Install the requirements
+    ```bash
+    pip install -r requirements.txt
+    ```
+- Add the .env folder and keep the API Keys as in **.env.example**
+
+- Run the streamlit APP
+    ```bash
+    streamlit run app.py
+    ```
+
+- Type the Movie Name in the app window
+
+- Ask away anything about the movie
